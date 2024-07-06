@@ -16,8 +16,38 @@ body {
 
 .col-2 {
     background-color: rgb(245, 239, 233);
-    padding-left: 16px;
+    padding-left: 32px;
     padding-right: 10%;
+}
+
+.info {
+    font-weight: 600;
+}
+
+.info p {
+    margin: 16px 0;
+}
+
+.info p:last-child {
+    margin-bottom: 54px;
+}
+
+button {
+    background-color: rgb(94, 134, 221);
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: 0;
+    margin: 16px 0;
+}
+
+button:active {
+    background-color: rgb(60, 111, 223);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 134, 221);
+    font-weight: 600;
 }
 
 /**** Flex ****/
