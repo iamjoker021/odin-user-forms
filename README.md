@@ -8,4 +8,4 @@ TO Build a HTML form referring to given Form Layout
 ![sample-design-odin](./assets/sign-up-form.png)
 
 # Result/Final
-![result-picure](./assets/result.png)
+![result-picures](./assets/result-picture.png)
