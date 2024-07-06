@@ -1,0 +1,32 @@
+/**** Styles and Typography ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    background-color: aquamarine;
+}
+
+.col-2 {
+    background-color: burlywood;
+}
+
+/**** Flex ****/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+}
+
+body div.col-1 {
+    flex: 1;
+}
+
+body div.col-2 {
+    flex: 2;
+}
